@@ -6,7 +6,7 @@ class Inputfield extends StatelessWidget {
   final IconData icon;
   final validator;
   Inputfield({this.hint, this.obscur, this.icon, this.validator});
-g
+git
   @override
   Widget build(BuildContext context) {
     return Container(
