@@ -6,7 +6,7 @@ class Inputfield extends StatelessWidget {
   final IconData icon;
   final validator;
   Inputfield({this.hint, this.obscur, this.icon, this.validator});
-git
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,6 +26,7 @@ git
             ),
             focusedBorder: new UnderlineInputBorder(
                 borderSide: new BorderSide(color: Colors.green)),
+            fillColor: Colors.redAccent,
             enabledBorder: new UnderlineInputBorder(
                 borderSide: new BorderSide(color: Colors.white)),
             errorStyle: new TextStyle(color: Colors.amber),
